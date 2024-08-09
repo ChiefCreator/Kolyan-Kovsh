@@ -44,7 +44,7 @@ function validation() {
                         console.log("Неверно")
                         input.parentElement.classList.add("danger");
                         input.parentElement.classList.remove("success");
-                        textValidation.textContent = "Введите беларусский номер";
+                        textValidation.textContent = "Введите белорусский номер";
                         error++;
                     } else {
                         console.log("Верно")
@@ -58,7 +58,7 @@ function validation() {
                             console.log("Неверно")
                             input.parentElement.classList.add("danger")
                             input.parentElement.classList.remove("success")
-                            textValidation.textContent = "Введите беларусский номер";
+                            textValidation.textContent = "Введите белорусский номер";
                         } else {
                             console.log("Верно")
                             input.parentElement.classList.remove("danger")
@@ -74,7 +74,7 @@ function validation() {
                         console.log("Неверно")
                         input.parentElement.classList.add("danger");
                         input.parentElement.classList.remove("success");
-                        textValidation.textContent = "Введите беларусский номер";
+                        textValidation.textContent = "Введите белорусский номер";
                         error++;
                     } else {
                         console.log("Верно")
@@ -88,7 +88,7 @@ function validation() {
                             console.log("Неверно")
                             input.parentElement.classList.add("danger")
                             input.parentElement.classList.remove("success")
-                            textValidation.textContent = "Введите беларусский номер";
+                            textValidation.textContent = "Введите белорусский номер";
                         } else {
                             console.log("Верно")
                             input.parentElement.classList.remove("danger")
